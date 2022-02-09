@@ -110,6 +110,9 @@ body{
     transition: .5s;
     animation: animate 2s ease-in-out infinite;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.85);
+    background: url("https://img2.akspic.ru/previews/4/2/7/2/62724/62724-bakki_barns-kris_evans-supergeroj-vymyslennyj_personaz-kinovselennaya_marvel-x750.jpg");
+    background-size:cover;
+    background-position: center;
 }
 
 .container .box:hover span::before{
