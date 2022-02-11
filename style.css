@@ -76,3 +76,43 @@ body{
     color:aqua;
 }
 
+
+
+.amerika{
+    display: none;
+    width: 100%;
+    height: 100vh;
+    background-color: #00FE73;
+}
+
+.action{
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.tony{
+    display: none;
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+}
+
+.section{
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-color: brown;
+}
+
+
+
+
+
+@media (max-width: 420px) {
+    .action{
+        margin-top: 600px;
+    }
+    
+}
