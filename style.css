@@ -106,15 +106,19 @@ body{
     background-color: brown;
 }
 
+.stripes{
+    width: 100%;
+    height: 50px;
+    background: red;
+    display: none;
+}
 
 
 
 
 @media (max-width: 420px) {
-    .action{
-        margin-top: 850px;
-    }
-    .section{
-        margin-top: 850px;
+    .stripes{
+        display: block;
+        margin-top: 600px;
     }
 }
